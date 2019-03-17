@@ -1,0 +1,16 @@
+//META{"name":"Elegant_Blue","description":"***Make sure BD blue and BD dark are OFF!*** Relaxing blue theme with some customisability(background and main colors customisable, color changing still WIP). Narrow screen width support to some extent. Originally based on Discord Reborn by Omniscient. Friends list by Uri. A big thanks to the people on BetterDiscord server who gave ideas and solutions.","author":"Arch#4700","version":"1.1"}*//{}
+
+/* IMPORT CSS */
+@import url(https://archnemeziz.github.io/Discord/ElegantBlue.mini.css);
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------
+IMPORTANT: CHANGE TO DARK APPEARANCE IN DISCORD SETTINGS!
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+/* SET OPTIONS */
+:root { 
+ --main-color: #057F95;
+ --hover-color: #045B6B;
+}
+.app, canvas, .callout-backdrop {
+	background-image: url("https://i.imgur.com/Mu4SNn6.jpg") !important;
+}

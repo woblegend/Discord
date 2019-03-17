@@ -1,0 +1,36 @@
+//META{"name":"Shadow Light","description":"Dark style theme with shadows and light color borders. Background Image Version","author":"Asteria","version":"1.5","website":"https://discord.gg/QRxZPvc"}*//{}
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url('https://asteria5675.github.io/BetterDiscordThemes/SourceCodes/sl_source.css');
+
+/* Main Variables
+- Change the color variables if desired*/
+
+:root {
+/* Main Color */
+--main-color: #2e2e2e;
+/* Border Colors */
+--sec-color: rgb(141, 136, 136);
+/* Button color and other aspects */
+--dark-red: rgba(100,15,30,1);
+/* Background Opacity to image >number within [0,1)*/
+--bg-opacity: 0;
+/* Message Background Color/Opacity */
+--message-bg: rgba(0,0,0,0.65);
+}
+
+
+/* Background Image */
+
+#app-mount {
+	background: url(https://i.imgur.com/ucW2TmV.png) center/cover;
+}
+#app-mount::before {
+	content: '';
+	width: 100vw;
+	height: 22px;
+	background: rgba(0,0,0,.45);
+}
+.container-16j22k {
+    background: url(https://i.imgur.com/ucW2TmV.png) no-repeat center/cover;
+    -webkit-mask: -webkit-radial-gradient( rgba(0,0,0,1), rgba(0,0,0,0.95))
+}

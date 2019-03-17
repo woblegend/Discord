@@ -1,0 +1,35 @@
+//META{"name":"Madoka Magica","description":"~Madoka Magica theme~ Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+/* Open this file in Notepad++  User settings below. */
+
+@import url(https://satoru8.github.io/Collection/Base.css);
+@import url(https://satoru8.github.io/Addons/FriendsList.css);
+@import url(https://satoru8.github.io/Addons/LargeChatAvatars.css);
+@import url(https://satoru8.github.io/Addons/StatusChooser.css);
+@import url(https://satoru8.github.io/Addons/ServerColumnX2.css);
+
+:root {
+	--light: rgba(0, 0, 0, .5); 		/* Overall brightness. 1= black, 0 = transparent */
+	--userlight:rgba(0, 0, 0, 0.3);		/* Brightness for the userpopouts */
+	--mc: hsla(224, 89%, 29%, 0.8);		/* Main colour. Larger items, backgrounds. */
+	--sc: hsla(0, 100%, 66%, 0.8);		/* Accent/Secondary colour. Notifications & such.  */
+	--bc: hsla(291, 100%, 66%, 0.8);		/* All borders/box shadows. You should match this to your mc or sc colour. */
+	--round: 50%;                          /* Overall Icon roundness */
+	--font: sans-serif;	
+	--font-size: 1rem;
+	--text:  #fff; 						/* Text colour. */
+	--block: none;                      /* Show/Hide blocked msgs. Default - none */
+	--bg: rgba(0,0,0,.9);
+
+    --size1: 60px; /* Avatar Size */
+    --round1: 5%;  /* Avatar roundness 50% Circle. */
+    --margin1: 0px; /* Margin left/right */
+    --margin2: 0px; /* Margin top/bottom */
+    --shadow1: 0 0 2px #000; /* Shadow for transparent themes. */
+    --compact: 5px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
+}
+#app-mount {background: url(https://images5.alphacoders.com/313/313035.jpg) center/cover no-repeat}
+.userPopout-3XzG_A {background: url(https://media.giphy.com/media/23gn6HPOx40Bq/giphy.gif) center/cover no-repeat}
+svg.homeIcon-tEMBK1{background: url(https://media.giphy.com/media/13VFATn4bxBCXm/giphy.gif) no-repeat center/cover}
+.containerCozy-jafyvG {background: hsla(0, 0%, 0%, 0.6);box-shadow: 0px 0px 5px 0px var(--sc);margin: 15px;border-radius:15px} 
+.containerCozy-jafyvG:hover {background: hsla(0, 0%, 0%, 0.9);box-shadow: 0px 0px 10px 1px var(--sc) }

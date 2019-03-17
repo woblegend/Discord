@@ -1,0 +1,87 @@
+//META{"name":"Nyx","description":"A simple yet complex theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"0.9.5","website":"http://discord.gg/fjvwb95"}*//{}
+
+/* === Please use Notepad++ or your preferred source editor, to view this properly. ===
+
+Imports below are groups of google fonts. By default they are disabled except for the font in use.
+Simply swap the url you need with the uncommented line. 
+*/
+
+@import url(https://satoru8.github.io/Nyx/Nyx.css);
+@import url('https://tinyurl.com/ybuqovun');
+@import url('https://satoru8.github.io/Addons/TitleBar/Titlebar.css');
+@import url('https://satoru8.github.io/FullSizePfp/FullSizePfp.css');
+@import url('https://satoru8.github.io/Addons/AniEmoji.css');
+@import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
+@import url('https://satoru8.github.io/Addons/GlowStatus.css');
+@import url('https://satoru8.github.io/Addons/StatusChooser.css');
+@import url('https://satoru8.github.io/Addons/LargeChatAvatars.css');
+
+:root {
+
+	--light: hsla(0, 0%, 0%, 0.25); /* Overall brightness. 1= black, 0 = transparent */
+
+	--mc: hsla(296, 100%, 50%, 0.9);	/* Main theme colour. */
+	--sb:hsl(297, 100%, 40%);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
+	--border: hsla(268, 100%, 50%, 0.9);	/* Border colour. Change .3 to 0 to hide borders. */
+    --accent: hsl(297, 100%, 40%);
+
+    --trans:    hsla(0, 0%, 0%, 0.6);                   
+	--trans2: hsla(0, 0%, 0%, 0.9);
+
+	--text: #ccc;	/* Chat text colour */
+	--msg:hsla(0, 0%, 0%, 0.7);					        /* Msg box background darkness */
+
+	--round: 30%;	/* Icon Roundness. Pfps/Guilds 50% round, 5% Square. */
+	--profileradius: 0px; /* 0 is normal squared edges. Up to 45px for rounded profiles. */
+
+	--homeicon: url(https://cdn.rawgit.com/satoru8/Icons/215bf4c4/menu24.png); /* Custom Home Icon. */
+
+	--font: 'Lato', sans-serif;
+	--fsize: 13px;	/* Font Size */
+    --block: none ;  /* Default - none, Show - contents */
+    
+    --cb: 10px;                                           /*Change chatbox style*/
+	--cbround: 5px;                                      /* Chatbox roundness */
+
+    --bg: rgba(0, 0, 0, .9); /*Status Chooser background */
+
+    /* Large Chat avatars */
+	--size1: 60px; /* Avatar Size */
+	--round1: 5%;  /* Avatar roundness 50% Circle. */
+	--margin1: -20px; /* Margin left/right */
+	--margin2: 0px; /* Margin top/bottom */
+	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
+	--compact: 15px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
+
+	/* Glow Status */
+    --sglow: 5px 2px; /* Blur/Thickness Default: 5px 2px */
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+}
+#app-mount {background: url(https://images8.alphacoders.com/485/485164.jpg) center/cover no-repeat}
+
+ /* Backgrounds -
+You can use one of these if you dont feel like using your own.
+
+https://images6.alphacoders.com/930/930542.jpg
+https://images2.alphacoders.com/872/872580.jpg
+https://images4.alphacoders.com/930/930538.jpg
+https://images5.alphacoders.com/764/764519.jpg
+https://images3.alphacoders.com/249/2499.jpg 
+https://initiate.alphacoders.com/images/695/cropped-1920-1080-695787.png
+=================================
+https://images8.alphacoders.com/485/485164.jpg  = <3 =
+https://images4.alphacoders.com/575/575242.jpg  = Original =
+https://images6.alphacoders.com/326/326467.jpg  = Legendary Birds =
+https://images5.alphacoders.com/587/587597.jpg  = Tokyo Ghoul =
+https://images2.alphacoders.com/564/564835.jpg  = DBZ =
+https://images.alphacoders.com/605/605592.png   = Naruto =
+https://images2.alphacoders.com/740/740344.jpg  = Spice & Wolf =
+
+
+https://wall.alphacoders.com/search.php?search=original  - List of original anime wallpapers 
+*/

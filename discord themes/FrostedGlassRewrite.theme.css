@@ -1,0 +1,11 @@
+/* //META{ "name": "Frosted glass Rewrite", "description": "A rewrite of a them that i made a while ago called: Frosted glass. This version will have some improvements far better than the original. Recomended size for discord is 100", "author": "Alten", "version": "1.0.1", "source":"https://raw.githubusercontent.com/AltenGD/Altens-betterdiscord-Themes-Plugins/master/Themes/FrostedGlassRewrite.theme.css"} *//**/
+
+@import url(https://rawgit.com/AltenGD/Altens-betterdiscord-Themes-Plugins/master/Themes/FGR.css);
+
+:root {
+  --imgNonBlurred: url(https://i.imgur.com/04GKOra.jpg);
+  --imgBlurred: url(https://i.imgur.com/dgBOlGy.jpg);
+  --Brightness: rgba(0,0,0,0.2);
+  --SecondaryBrightness: rgba(0,0,0,0.4);
+  --ThirdBrightness: rgba(0,0,0,0.6);
+}

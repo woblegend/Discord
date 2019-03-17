@@ -1,0 +1,158 @@
+//META{"name":"Featured Artist - 이소연 - Variation 2","description":"이소연 Variation 2. Part of the featured artist collection. <br>- Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+@import url('https://satoru8.github.io/FullTransparency/FullTransparency.css'); /* Main theme, do not touch. */
+
+/* Addons start here. If you dont like an addon, remove the import */
+@import url('https://satoru8.github.io/Addons/FullScreenStatusPicker/fullScreenStatusPicker.css');
+@import url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/fullScreenServerSettingsMenu.css');
+@import url('https://satoru8.github.io/Addons/CodeBlock/CodeBlocks.css');
+@import url('https://satoru8.github.io/FullSizePfp/FullSizePfp.css');
+@import url('https://satoru8.github.io/Addons/GlowStatus.css');
+@import url('https://satoru8.github.io/Addons/FriendsList.css');
+@import url('https://satoru8.github.io/Addons/Library.css');
+
+/*
+User Customizable Theme Settings.
+
+There is a lot of settings. 
+I suggest you take your time to review them all. 
+
+*/
+:root {
+
+    --brightness: rgba(0, 0, 0, 0.75) ;		/* Main theme brightness / background colour */
+    --bgLayer: rgba(0, 0, 0, 0.55) ;			/* Adds a layer for use with wallpapers. Adjust the 4th number(alpha) for brightness. 1 = black, 0 = transparent */ 
+    --settings: rgb(0, 0, 0) ;		/* Settings menu transparency */
+
+    --bgBlur: 0px;								/* Optional blur effect for secondary wallpaper. */
+	--bgOpacity:0.6;							/* Opacity on the secondary wallpaper. */
+
+    --accent: rgb(0, 216, 255) ;		/* Main theme accent colours */
+    --gSelect:0px 3px rgb(0, 24, 144);	/* Currently selected guild colour. 5px 2px Default */ 
+    --unread: rgb(0, 255, 82) ;		/* Unread messages colour */
+	--sb: 	  rgba(179, 173, 162, 0.4) ;		/* Scrollbars. */
+
+    --round: 10%; 							/* 0% Square, 50% Circle Pfps/Guilds*/
+
+    --font: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif ;	/* Discord default font - Whitney,Helvetica Neue,Helvetica,Arial,sans-serif */
+    --fontsize: .92em;
+    --textcolor: #fff;					/* Chat text colour */
+
+    --profileradius: 5px;			/* User popout profiles. 0 is normal squared edges. Up to 50px for rounded profiles. */
+    --rolesRadius: 6px;      /* Roles roundness */
+	--color: #fff;				/* PFP Name colour */
+
+	--w2: 75% ;		/* Settings width */
+	--h2: 85% ;		/* Settings height */
+
+	/* CodeBlocks */
+	--cbBG: rgba(0, 0, 0, 0.5);			/* Main background colour */
+	--mainColour:rgba(0, 0, 0, 0.5);	/* Main line colour */
+	--slColour: rgb(0, 0, 0);			/* Secondary line colour */
+
+	/* GlowStatus */
+    --sglow: 0px 2px;	/* Blur/Thickness Default: 5px 2px */
+
+    --online: #00ff8b;		/* Status Colours */
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+
+	/* Uri's FullScreen Status */
+    --sPickerOnlineBGColour: #43b581;
+    --sPickerIdleBGColour: #faa61a;
+    --sPickerDNDBGColour: #f04747;
+    --sPickerInviBGColour: #1a36fa;
+
+    --sPickerOnlineBGIcon: url('https://satoru8.github.io/Addons/FullScreenStatusPicker/Assets/online.svg');
+    --sPickerIdleBGIcon: url('https://satoru8.github.io/Addons/FullScreenStatusPicker/Assets/idle.svg');
+    --sPickerDNDBGIcon:url('https://satoru8.github.io/Addons/FullScreenStatusPicker/Assets/dnd.svg');
+    --sPickerInviBGIcon: url('https://satoru8.github.io/Addons/FullScreenStatusPicker/Assets/invis.svg');
+
+	/* Uri's ServerSettings Menu*/
+    --ssColourInvite: #7289da;
+	--ssColourServerSettings: #046d94;
+	--ssColourCreateChannel: #daa520;
+	--ssColourCreateCategory: #751e5f;
+	--ssColourNotification: #157563;
+	--ssColourPrivacy: #497388;
+	--ssColourNickname: #714484;
+	--ssColourHidden: #cc6699;
+	--ssColourLeave: #f04747;
+	
+	--ssIconInvite: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/online.svg');
+	--ssIconServerSettings: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/setting.svg');
+	--ssIconCreateChannel: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/channel.svg');
+	--ssIconCreateCategory: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/category.svg');
+	--ssIconNotification: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/notif.svg');
+	--ssIconPrivacy: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/privacy.svg');
+	--ssIconNickname: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/nickname.svg');
+	--ssIconHiddenIsHidden: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/hidden.svg');
+	--ssIconHiddenIsShown: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/shown.svg');
+	--ssIconLeave: url('https://satoru8.github.io/Addons/FullScreenServerSettingsMenu/Assets/leave.svg');
+}
+
+/* Main wallpaper. */
+#app-mount {background-image: url('https://raw.githubusercontent.com/satoru8/FeaturedArtists/master/lsy/Assets/lsy4.jpg'); background-position: center;background-size: cover;background-repeat: no-repeat}
+
+ /* Optional secondary wallpaper. For use with opacity setting. */
+#app-mount::before {background-image: url(''); background-position: center;background-size: cover;background-repeat: no-repeat}
+
+/* Custom CSS */
+:root {
+	--cbBg3:rgba(0, 0, 0, 0.3) ;	/* Bubble background / transparency */
+	--cb3Border:0px 0px #000;	/* Set bubble glow or border here. None by default. Glow 4px 0px / Border 0px 1px */
+	--cb3Round:15px;				/* Bubble roundness */
+}
+#app-mount .chat-3bRxxu .containerCozy-jafyvG {background: var(--cbBg3);box-shadow: 0 0 var(--cb3Border);margin: 10px;border-radius:var(--cb3Round)}
+#app-mount .chat-3bRxxu .containerCozy-jafyvG:hover {background: rgba(0, 0, 0, 0.5)}
+:root {
+	--size1: 60px; /* Avatar Size */
+	--round1: var(--round);  /* Avatar roundness 50% Circle. */
+	--margin1: -15px; /* Margin left/right */
+	--margin2: 0px; /* Margin top/bottom */	
+	--compact: 10px;    /* Default 5px, Non-compact 15px. This makes the chat msgs a bit more compact by default. */
+}#app-mount .chat-3bRxxu .containerCozy-jafyvG .avatar-17mtNa .image-33JSyf.large-3ChYtB {
+    background-size: var(--size1) var(--size1);
+    height: var(--size1);width: var(--size1);
+    border-radius:var(--round1);-webkit-mask:none
+}
+#app-mount .chat-3bRxxu .headerCozy-2N9HOL {height: 15px}
+#app-mount .chat-3bRxxu .headerCozyMeta-rdohGq {left:-10px;position:relative}
+#app-mount .chat-3bRxxu .containerCozy-jafyvG {padding: 15px 0}
+#app-mount .chat-3bRxxu .contentCozy-3XX413 {margin-left: calc(30px + var(--size1))}
+#app-mount .chat-3bRxxu .container-1YxwTf {min-height: var(--size1);box-sizing: content-box}
+#app-mount .chat-3bRxxu .containerCompact-3V0ioj {min-height:initial}
+#app-mount .chat-3bRxxu .container-1YxwTf .divider-32i8lo {position:absolute;bottom:15px;width:100%}
+#app-mount .chat-3bRxxu .container-1YxwTf .wrapper-2F3Zv8{left:var(--margin1);top:var(--margin2);width: calc(var(--size1));height: var(--size1)}
+#app-mount .chat-3bRxxu .messagesWrapper-3lZDfY .containerCozyBounded-1rKFAn {padding: var(--compact)}
+
+
+#app-mount .layer-3QrUeG:nth-child(2)::before {
+	content:'';
+	background-image: url('https://raw.githubusercontent.com/satoru8/FeaturedArtists/master/lsy/Assets/lsy8.jpg')!important;
+	background-position: center !important;width:100%;height:102%;opacity:.5;
+	background-repeat: no-repeat !important;display: block !important;border-radius:6px;
+	background-size:  cover !important;z-index:1;top:-22px;position:relative
+}
+#app-mount .userPopout-3XzG_A {
+	background-color:transparent;
+	background-image: url('https://raw.githubusercontent.com/satoru8/FeaturedArtists/master/lsy/Assets/lsy3.jpg');
+	background-position: bottom;
+	background-repeat:no-repeat;
+	background-size:  contain;
+
+}
+#app-mount .userPopout-3XzG_A .headerNormal-T_seeN, #app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV, #app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT, 
+#app-mount .userPopout-3XzG_A .headerStreaming-2FjmGz, #app-mount .userPopout-3XzG_A .body-3iLsc4, #app-mount .userPopout-3XzG_A .footer-1fjuF6 {background-color:#0000009c}
+
+
+#app-mount .homeIcon-tEMBK1 g{display:none}
+#app-mount svg.homeIcon-tEMBK1{background: url('https://raw.githubusercontent.com/satoru8/FeaturedArtists/master/lsy/Assets/lsy5.jpg') no-repeat center/cover}
+
+#app-mount .wrapper-1Rf91z .container-2td-dC.selected-nT-gM3.unread-2OHH1w::before,
+#app-mount .wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w:before {
+    box-shadow:0 0 0 2px var(--unread) 
+}

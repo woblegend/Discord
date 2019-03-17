@@ -1,0 +1,15 @@
+//META{"name":"Large Emoji Picker","description":"A larger emoji picker. Adjustable size.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+@import url('https://satoru8.github.io/Addons/Emoji/emojipicker.css');
+
+/* User Settings */
+
+:root {
+
+    --epHeight: 400px ;		/* EmojiPicker Height. Default: 400px, Original:325px */
+    --epWidth: 450px ;		/* EmojiPicker Width. Default: 450px, Original:345px */
+
+   	--emojiSize: 2em ;			/* Chat emoji size */
+
+    --epItemW: 8.5% ; /* PickerItemWidth. Only change this if you know what you are doing. */
+}

@@ -1,0 +1,12 @@
+/*//META{"name": "Little Big Planet", "description": "A Little Big Planet based theme. (A version for BDv2 exists already as well)", "author": "Mondanzo (Furry (Gay)#1815)", "version": "1.1.2", "source": "https://github.com/Mondanzo/BD/tree/master/LBP", "website": "https://bd.mondanzo.de/#lbp"}*//* */
+
+@import url(https://rawcdn.githack.com/Mondanzo/BD/ed1b596b74cdeefb6943cb657b9bdb15cd7d1906/LBP/source.css);
+
+/*VARIABLES */
+:root {
+	--popitPrimaryTransparent: rgba(133, 38, 211, 0.4);
+	--popitSecondaryTransparent: rgba(188, 38, 211, 0.4);
+	--popitPrimary: #8526D3;
+	--popitSecondary: #bc26d3;
+	--background: url("https://i.imgur.com/Yr7IC27.jpg");
+}

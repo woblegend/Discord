@@ -1,0 +1,32 @@
+//META{"name":"Miku2<3","description":"~Hatsune Miku theme #2~ Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+@import url(https://satoru8.github.io/Collection/Base.css);
+@import url(https://satoru8.github.io/Addons/SmallerGuildIcons.css);
+@import url(https://satoru8.github.io/Addons/MemberlistPopout.css);
+@import url(https://satoru8.github.io/Addons/FriendsList.css);
+@import url(https://satoru8.github.io/Addons/TitleBar/Titlebar.css);
+@import url(https://satoru8.github.io/Addons/ChatBubbles/chatbubble1.css);
+
+:root {
+	
+    --light: rgba(0, 0, 0, .5); 		/* Overall brightness. 1= black, 0 = transparent */
+    --userlight:rgba(0, 0, 0, 0.5);		/* Brightness for the userpopouts */
+
+	--mc: hsla(332, 78%, 32%, 0.8);		/* Main colour. Larger items, backgrounds. */
+	--sc: hsla(133, 100%, 66%, 0.8);	/* Accent/Secondary colour. Borders, notifications & such.  */
+	--bc: hsla(188, 100%, 66%, 0.8);		/* All borders/box shadows. You should match this to your mc or sc colour. */
+	
+	--size: 35px;							/* Guild Icon Size */
+	--round: 50%;						/* Overall Icon roundness */
+	--font: sans-serif;	
+	--font-size: 15px;
+
+	--text:  #eee; 						/* Text colour. */
+	--block: none;						/* Show/Hide blocked msgs */
+
+	--cba1: rgba(0, 0, 0, .5); /*Chat bullbe background colour & transparency */
+	--round2: 15px /* Bubble roundness 0-30px */
+}
+#app-mount {background: url(https://images8.alphacoders.com/524/524092.jpg) center/cover no-repeat}
+.userPopout-3XzG_A {background: url(https://media.giphy.com/media/RlEu9mZPASs8M/giphy.gif) center/cover no-repeat}
+svg.homeIcon-tEMBK1{background: url(https://media.giphy.com/media/WMa7eMMZQ16uc/giphy.gif) no-repeat center/cover}

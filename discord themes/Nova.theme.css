@@ -1,0 +1,50 @@
+//META{"name":"Nova","description":"Explore the galaxy with a chilling theme. Please use the support server listed below if you need any help.","author":"Satoru","version":"1.7.7","website":"http://discord.gg/fjvwb95"}*//{}
+
+/* This is my fork of Nova. I will update/add to this and fix anything that breaks.
+   Credit to DinosParkour for original theme & tehbasshunter for maintenance/upkeep.
+   
+   User settings can be adjusted below.
+   If you want to remove an addon, just delete the import for it.
+*/
+
+@import url(https://satoru8.github.io/NovaFork/Nova.css);
+@import url(https://satoru8.github.io/Addons/GlowStatus.css);
+@import url(https://satoru8.github.io/Addons/StatusChooser.css);
+@import url(https://satoru8.github.io/Addons/LargeChatAvatars.css);
+@import url(https://satoru8.github.io/Addons/Compact/Memberlist/CompactMemberlist.css);
+@import url(https://satoru8.github.io/Addons/FriendsList.css);
+
+:root {
+    --mc: hsla(240, 100%, 50%, .8); /* Main theme colour */
+    --sc: rgba(255, 0, 0, 0.4);	/* Accent colour */
+	--chatbg: rgba(0,0,0,.0); /* Chat background darkness */
+
+	--homeicon: url(https://i.imgur.com/pIiNaUN.gif);
+
+	--text: #fff; /* Chat text colour */
+    --round: 50%;	/* Overall icon roundness */
+
+	--bg: rgba(0,0,0,.9); /* StatusChooser Background*/
+
+	/* Large Chat Avatars */
+	--size1: 50px; /* Avatar Size */
+	--round1: var(--round);  /* Chat Avatar roundness 50% Circle. */
+	--margin1: 0px; /* Chat avatar Margin left/right */
+	--margin2: 0px; /*Chat avatar Margin top/bottom */
+	--shadow1: 0 0 1px #000; /* Shadow for transparent themes. */
+	--compact: 10px;    /* Default 10px, Non-compact 20px. This makes the chat msgs a bit more compact by default. */
+
+	/* Glow Status */
+    --sglow: 5px 2px; /* Blur/Thickness Default: 5px 2px */
+
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+
+    --LineColour: #fff;
+    --NameColour: #fff;
+}
+#app-mount {background: url("https://github.com/satoru8/NovaFork/raw/master/Assets/nova.png") center/cover no-repeat} /* Background */

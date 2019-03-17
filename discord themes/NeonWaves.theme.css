@@ -1,0 +1,8 @@
+//META{"name":"Neon_Waves","description":"A_Pink_Blue_Wave_Theme","author":"xNightWulf","version":"1.0"}*//{}
+
+@import url(https://rawgit.com/xNightWulf/BetterDiscordThemeMasterFile/master/NeonWaves.theme.css);
+
+/*Change the 0.3 to something closer to 0 to make it brighter, closer to 1 to make the background darker*/
+.layers {
+    background: rgba(0,0,0,0.3)!important;
+}

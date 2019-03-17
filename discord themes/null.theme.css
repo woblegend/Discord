@@ -1,0 +1,22 @@
+//META{"name":"null","description":"null , lost? https://github.com/Modder4869/LazyStuff/tree/master/LazyMadeThemes","author":"Modder4869","version":"1.0.8"}*//{}
+/* dark example*/
+
+/* check https://github.com/Modder4869/LazyStuff/tree/master/LazyMadeThemes for examples / how to*/
+
+/*--------------------------------------------------------------------------*/
+
+/* import css file */
+
+@import url('https://modder4869.github.io/LazyStuff/LazyMadeThemes/null.css');
+/*--------------------------------------------------------------------------*/
+
+:root {
+    --hue: (1) + (380);
+    --saturation: (1) + (-102%);
+    --lightness: (1) + (-6%);
+    --alpha: (1) + (0);
+    --text-color: hsl(343, 38%, 40%); /*text,accent,tooltips*/
+    --selection-color: hsl(343, 38%, 40%); /*server channels*/
+}
+
+
