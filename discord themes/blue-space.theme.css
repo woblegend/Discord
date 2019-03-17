@@ -1,0 +1,22 @@
+//META{"name":"Blue Space","description":"Stars background with a beautiful blue-green coloring","author":"Ruben7173","version":"2.1"}*//{}
+
+/* imports code and Global transparency module */
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/blue-space/code.css);
+@import url(https://raw.githack.com/Ruben7173/Ruben7173.github.io/master/BetterDiscord-Themes/Modules/transparency.css);
+
+:root {
+	/* background image URL */
+	--background-image: url('https://images4.alphacoders.com/325/32596.jpg') center/cover no-repeat;
+	/* default background image https://images4.alphacoders.com/325/32596.jpg */
+	/* Transparency */
+    --transparency-level: rgba(0,0,0,0.10); 
+	/* transparency of top windows bar works different from the top one for some reason you have to try different values to match transparecy (aprox value is top value x 3 = result) */
+	--transparency-level-top: rgba(0,0,0,0.34);
+	/* ESC Button color at settings */
+	--ESC-Button-color: rgba(43, 99, 57, 0.9);
+	/* transparency of settings page */
+	--transparency-settings: rgba(0,0,0,0.2);
+	/* Discord Guild Icon */
+	--background-guild-icon-image: url('https://i.imgur.com/mabl6hm.png') center/cover no-repeat;
+}
+/* Any other code below */

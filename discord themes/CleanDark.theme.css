@@ -1,0 +1,33 @@
+//META{"name":"Clean Dark","description":"Simple & clean dark theme. Basic enhancements. User settings for variety. Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+@import url(https://satoru8.github.io/CleanDark/CleanDark.css);
+
+:root {
+	--round: 5%;	/* Icon Roundness. Pfps/Guilds */
+	--mc: #121212;	/* Main theme colour. */
+	--sc: rgba(0, 208, 255, 0.8);   /* Secondary/accent colour. */
+	--chatbg: #181818;	/* Chat background */
+	--text: #ccc;	/* Chat text colour */
+	--profileradius: 0px; /* 0 is normal squared edges. Up to 45px for rounded profiles. */
+	--homeicon: url(https://rawgit.com/satoru8/Icons/master/homewhite.svg); /* Custom Home Icon. */
+	--font: sans-serif;	
+	--fsize: 13px;	/* Font Size */
+	--sb:rgba(53, 149, 255, .3);    /* Scrollbar colour. Change .3 to 0 to hide scrollbar. */
+	--border: rgba(53, 149, 255, .3);	/* Border colour. Change .3 to 0 to hide borders. */
+	
+	/* Glow Status */
+	--sglow: 0px 2px; /* Blur/Thickness Default: 5px 2px */
+
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+
+    /* Uri's Status Chooser */
+	--sPickerOnlineBGColour: #43b581;
+    --sPickerIdleBGColour: #faa61a;
+    --sPickerDNDBGColour: #f04747;
+    --sPickerInviBGColour: #2f3136;
+}

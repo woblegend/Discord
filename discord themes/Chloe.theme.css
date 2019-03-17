@@ -1,0 +1,30 @@
+//META{"name":"Chloe","description":"~Chloe theme~ Please use the support server listed below if you need any help.","author":"Satoru","version":"1.0","website":"http://discord.gg/fjvwb95"}*//{}
+
+@import url(https://satoru8.github.io/Collection/Base.css);
+@import url(https://satoru8.github.io/Addons/GlowStatus.css);
+
+:root {
+	--light: rgba(0, 0, 0, .4); 		/* Overall brightness. 1= black, 0 = transparent */
+	--userlight:rgba(0, 0, 0, 0.2) ;		/* Brightness for the userpopouts */
+
+	--mc: hsla(172, 41%, 29%, 0.8);		/* Main colour. Larger items, backgrounds. */
+	--sc: hsla(359, 64%, 55%, 0.8);		/* Accent/Secondary colour. Borders, notifications & such.  */
+	--bc: hsla(359, 64%, 55%, 0.8);       /* All borders/box shadows. You should match this to your mc or sc colour. */
+
+	--round: 50%;                          /* Overall Icon roundness */
+	--font: sans-serif;	
+	--font-size: 15px;
+	--text:  #eee; 						/* Text colour. */
+	--block: none;                        /* Show/Hide blocked msgs */
+
+	--glow: 5px 2px; /* Blur/Thickness Default: 5px 2px */
+    --online: #43b581;
+    --offline: #747f8d;
+    --idle: #faa61a;
+    --stream: #593695;
+    --dnd: #f04747;
+    --invis: #1a36fa;
+}
+#app-mount {background: url(https://i.imgur.com/10UWZrf.jpg) center/cover no-repeat}
+.userPopout-3XzG_A {background: url(http://i.pinimg.com/736x/96/9a/5a/969a5a5c2a430deede193bf5cff0aef4.jpg) center/cover no-repeat}
+svg.homeIcon-tEMBK1{background: url(https://i.imgur.com/CqAFpyP.jpg) no-repeat center/cover}
